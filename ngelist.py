@@ -51,11 +51,11 @@ tool = raw_input(fw + "\n["+fw+"-"+fw+"]Choose tool : ")
 
 	
 if tool == "1":
-	os.chdir("tools/")
+	os.chdir("Tools/")
 	os.system("python2 o.py")
 	
 elif tool == "2":
-	os.chdir("tools/")
+	os.chdir("Tools/")
 	os.system("python2 k.py")	
 
 pass
